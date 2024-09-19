@@ -1,0 +1,96 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color:white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(228, 201, 199, 0.1);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: hsla(0, 0%, 0%, 0.829);
+    color: rgb(255, 255, 255);
+    padding: 100px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid rgb(177, 40, 108);
+}
+
+.profile-picture {
+    width: 150px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    border-radius: 50%; /* This makes the image round */
+    border: 5px solid #e63946; /* Border for styling */
+    margin-bottom: 20px;
+    object-fit: cover; /* Ensures the image fills the circular container properly */
+    display: block; /* Ensures the image is treated as a block element */
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+/* Headings Styling */
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e63946;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* List Styling */
+ul {
+    list-style-type: disc;
+  
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Button Styling */
+button {
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #ff737c;
+}
+
+/* Toggle visibility of skills section */
+#skills {
+    margin-bottom: 20px;
+}
